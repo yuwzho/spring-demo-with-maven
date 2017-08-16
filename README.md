@@ -25,6 +25,8 @@ mvn install -Dmaven.test.skip=true
 
 ## Configure server for this demo
 
+Sync this repo to your local machine and swith to the repo folder.
+
 Edit the `~/.m2/settings.xml` configure the `<Server>` part with your private docker registry information.
 
 > The server id field must be the registry URL for your docker registry as [fabric8 maven plugin](https://maven.fabric8.io/#authentication)'s documentation.

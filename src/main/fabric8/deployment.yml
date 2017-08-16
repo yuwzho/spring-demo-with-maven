@@ -20,7 +20,7 @@ spec:
         run: spring
     spec:
       containers:
-      - image: ${docker.registry}/${project.artifactId}:${project:version}
+      - image: ${docker.registry}/${project.artifactId}:${project.version}
         name: spring
         ports:
         - containerPort: 8080
