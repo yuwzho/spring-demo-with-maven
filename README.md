@@ -11,7 +11,7 @@ This demo uses the snapshot for [fabric8-maven-plugin](https://github.com/Micros
 * [Docker](https://www.docker.com/)
 
 ### Prepare your Kubernetes cluster and private docker registry
-* [Kubernetes on Azure Container Service] (https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough)
+* [Kubernetes on Azure Container Service](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough)
 * [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli)
 
 > The Kubernetes on ACS should be created in an empty resource group.
