@@ -4,10 +4,17 @@ This demo uses the snapshot for [fabric8-maven-plugin](https://github.com/Micros
 
 ## Requirements
 
+### Local Environment
 * [Java 7 or above](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Maven 3](http://maven.apache.org/)
 * [Groovy](http://groovy-lang.org/) - If not install this, the fabric8-maven-plugin's integration test will fail but intalling package to local will success.
 * [Docker](https://www.docker.com/)
+
+### Prepare your Kubernetes cluster and private docker registry
+* [Kubernetes on Azure Container Service] (https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough)
+* [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli)
+
+> The Kubernetes on ACS should be created in an empty resource group.
 
 ## Install the fabric8-maven-plugin in local machine
 Run the following command to download and install this maven plugin, since by default the the code is running on a linux machine, the Windows director sperator `:` will cause a test failed. Here simply ignore the test when running on Windows machine.
